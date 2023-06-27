@@ -1,0 +1,5 @@
+INDEX VERSION 1.132+C:\Users\ABC\Desktop\Industrial_Training\Day1_Practice\Basic\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+279868512.index
+4097777531.index
+4048950760.index

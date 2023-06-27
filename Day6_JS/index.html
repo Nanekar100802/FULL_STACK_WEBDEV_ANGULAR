@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript</h2>
+
+<p id="demo">Max between two</p>
+<input id="fn" type="number">Enter first number</input><br>
+<input id="sn" type="number">Enter first number</input><br>
+
+<button type="button" onclick="myFunction()">Max among two</button>
+<p id="ans"></p>
+<script>
+   
+   
+function myFunction() {
+    let a=document.getElementById("ans");
+    if( document.getElementById("fn").value>document.getElementById("sn").value)
+    {
+        a.innerHTML=document.getElementById("fn").value;
+    }
+    else
+    {
+        a.innerHTML=document.getElementById("sn").value;
+    }
+}
+</script>
+
+</body>
+</html>

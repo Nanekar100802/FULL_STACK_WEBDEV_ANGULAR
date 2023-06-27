@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max in 5</title>
+</head>
+<body>
+<p>12,25,31,23,75</p>
+<button type="button" onclick="myFunction()">Maximum among five number</button>
+<p id="ans"></p>
+<script>   
+let arr = [12,25,31,23,75]  
+function myFunction() {
+    let a=document.getElementById("ans");
+    a.innerHTML=arr.sort().pop();
+    } 
+ </script>   
+</body>
+</html>

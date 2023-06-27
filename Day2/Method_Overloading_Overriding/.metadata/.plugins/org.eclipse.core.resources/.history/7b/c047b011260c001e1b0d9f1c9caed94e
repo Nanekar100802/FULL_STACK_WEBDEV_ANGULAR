@@ -1,0 +1,13 @@
+package inheritence;
+
+public class Person 
+{
+	Person()
+	{
+		System.out.print("Hello");
+	}
+	public static void main(String args[])
+	{
+		
+	}
+}

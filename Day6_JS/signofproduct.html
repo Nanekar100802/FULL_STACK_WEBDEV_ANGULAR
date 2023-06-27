@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+<input id="fn" type="number">Enter first number</input><br>
+<input id="sn" type="number">Enter first number</input><br>
+<input id="tn" type="number">Enter third number</input><br>
+<button type="button" onclick="myFunction()">Sign of product</button>
+<p id="ans"></p>
+<script>
+   
+   
+function myFunction() {
+    let a=document.getElementById("ans");
+    let s=document.getElementById("fn").value*document.getElementById("sn").value*document.getElementById("tn").value;
+    if(s>0)
+    {
+        a.innerHTML="+";
+    }
+    else if(s<0)
+    {
+        a.innerHTML="-";
+    }
+    else{
+        a.innerHTML="0";
+    }
+   
+}
+</script>
+
+    
+</body>
+</html>
